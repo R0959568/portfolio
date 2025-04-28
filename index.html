@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalio – Hamid Iqbal</title>
+
+    <!-- JS -->
+    <script src="js.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+    <!-- Google Fonts - Urbanist -->
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<!-- Dark overlay -->
+<div class="overlay"></div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark animate-on-scroll">
+    <a class="navbar-brand fw-bold" href="#">HI - PORTFOLIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Welcome</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Motto</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Content -->
+<div class="container text-white hero-content">
+    <p>Hi, I’m Hamid Iqbal</p>
+    <h1 class="mb-0">BUILDING</h1>
+    <h1>DIGITAL</h1>
+    <h1>PRODUCTS</h1>
+</div>
+
+<!-- Social Icons -->
+<div class="social-icons">
+    <a href="#"><i class="bi bi-dribbble"></i></a>
+    <a href="#"><i class="bi bi-instagram"></i></a>
+    <a href="#"><i class="bi bi-play-fill"></i></a>
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="about-section text-center my-5 position-relative">
+    <!-- Absolute flare image -->
+    <img src="Resoruces/red%20flare.png" class="position-absolute flare-image1" alt="Decorative flare" />
+    <img src="Resoruces/flare%20image%202.png" class="position-absolute flare-image2" alt="Decorative flare" />
+
+
+    <!-- Profile Picture -->
+    <div class="profile-pic mb-4">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQERx0O-tjIb7A/profile-displayphoto-shrink_800_800/B4DZTxR_5KG4Ag-/0/1739214815358?e=1750896000&v=beta&t=mYtqt0wrL3wrcmdrN3za-rm1dy42XwWm5w8H-yWNfKg" alt="Hamid Iqbal" class="rounded-circle img-fluid" />
+    </div>
+
+    <h2 class="display-5 fw-bold animate-on-scroll" style="transition-delay: 0.2s">Hamid Iqbal</h2>
+    <p class="section-subtitle animate-on-scroll" style="transition-delay: 0.4s">ABOUT ME</p>
+
+    <div class="about-text mx-auto animate-on-scroll" style="max-width: 800px;">
+        <p class=" my-5">
+            I'm someone who believes that small efforts every day lead to big results. I enjoy working with others, staying organized, and always finding new things to learn. In my free time, I love playing badminton, taking part in physical activities.. Staying active and trying new experiences helps me stay focused, motivated, and continuously growing, both personally and professionally.
+            <br>
+            <br>
+            I have a deep interest in UI/UX design and software development. I love creating experiences that are not just functional, but intuitive and user-friendly. I'm also fascinated by the world of AI, especially how it can enhance user experiences and open new creative possibilities. I'm constantly exploring new tools and technologies to improve my skills and stay at the forefront of innovation.
+        </p>
+    </div>
+
+    <div class="tags d-flex justify-content-center flex-wrap gap-4 mb-4 animate-on-scroll">
+        <div class="tag-item"><i class="bi bi-plus"></i> UI UX</div>
+        <div class="tag-item"><i class="bi bi-plus"></i> DEVELOPMENT</div>
+        <div class="tag-item"><i class="bi bi-plus"></i> DATA</div>
+        <div class="tag-item"><i class="bi bi-plus"></i> AI</div>
+    </div>
+
+    <a href="#" class="btn download-btn mt-3 animate-on-scroll">View CV</a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="achievements-section">
+    <div class="">
+        <p class="section-subtitle text-uppercase text-white">My Learnings</p>
+        <h2 class="display-5 fw-bold text-white mb-3">My Achievements</h2>
+    </div>
+</section>
+
+        <div class="accordion-flush" id="serviceAccordion">
+
+
+            <!-- Item 1 -->
+            <div class="accordion-item text-white">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#serviceOne">
+                        <i class=" accordion-icons bi bi-cpu me-3"></i> FullStack - School Projects
+                    </button>
+                </h2>
+                <div id="serviceOne" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                    <div class="accordion-text accordion-body text-secondary">
+
+
+
+
+                        <div class="row g-6">
+                            <!-- Project 1 -->
+                            <div class="col-md-6">
+                                <div class="project-card" data-bs-toggle="modal" data-bs-target="#sunnymeadowsModal">
+                                    <div class="project-image" style="background-image: url('Resoruces/sunny_maedows/sunnymeadows_thumbnail.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2021</small>
+                                        <h5 class="text-white mt-2">A website for a non-profit organization that raises awareness and funds</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Sunny Meadows Modal -->
+                            <div class="modal fade" id="sunnymeadowsModal" tabindex="-1" aria-labelledby="sunnymeadowsModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header border-0">
+                                            <h5 class="modal-title" id="sunnymeadowsModalLabel">Sunny Meadows - Non-Profit Website</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Carousel -->
+                                            <div id="sunnymeadowsCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active popup-image">
+                                                        <a href="Resoruces/sunny_maedows/image 39.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/sunny_maedows/image 39.png" class="d-block w-100" alt="Sunny Meadows Screenshot 1">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/sunny_maedows/image 40.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/sunny_maedows/image 40.png" class="d-block w-100" alt="Sunny Meadows Screenshot 2">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/sunny_maedows/image 41.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/sunny_maedows/image 41.png" class="d-block w-100" alt="Sunny Meadows Screenshot 3">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/sunny_maedows/image 42.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/sunny_maedows/image 42.png" class="d-block w-100" alt="Sunny Meadows Screenshot 4">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/sunny_maedows/image 43.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/sunny_maedows/image 43.png" class="d-block w-100" alt="Sunny Meadows Screenshot 5">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/sunny_maedows/image.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/sunny_maedows/image.png" class="d-block w-100" alt="Sunny Meadows Screenshot 6">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#sunnymeadowsCarousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#sunnymeadowsCarousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </button>
+                                            </div>
+
+                                            <!-- Description -->
+                                            <p>Sunny Meadows is a website designed for a non-profit organization focused on raising awareness and generating support for mental health initiatives. This Figma-based design includes donation features, an events calendar, and a responsive layout for accessibility on all devices.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <!-- Project 2 -->
+                            <div class="col-md-6">
+                                <div class="project-card" data-bs-toggle="modal" data-bs-target="#nitrodriveModal">
+                                    <div class="project-image" style="background-image: url('Resoruces/nitro_drive/nitrodrive_thumbnail.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2021</small>
+                                        <h5 class="text-white mt-2">Nitro Drive - Figma Design</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Nitro Drive Modal -->
+                            <div class="modal fade" id="nitrodriveModal" tabindex="-1" aria-labelledby="nitrodriveModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header border-0">
+                                            <h5 class="modal-title" id="nitrodriveModalLabel">Nitro Drive - Figma Design</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Carousel -->
+                                            <div id="nitrodriveCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active popup-image">
+                                                        <a href="Resoruces/nitro_drive/image 33.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/nitro_drive/image 33.png" class="d-block w-100" alt="Nitro Drive Screenshot 1">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/nitro_drive/image 34.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/nitro_drive/image 34.png" class="d-block w-100" alt="Nitro Drive Screenshot 2">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/nitro_drive/image 35.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/nitro_drive/image 35.png" class="d-block w-100" alt="Nitro Drive Screenshot 3">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/nitro_drive/image 36.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/nitro_drive/image 36.png" class="d-block w-100" alt="Nitro Drive Screenshot 4">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/nitro_drive/image 37.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/nitro_drive/image 37.png" class="d-block w-100" alt="Nitro Drive Screenshot 5">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#nitrodriveCarousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#nitrodriveCarousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </button>
+                                            </div>
+                                            <!-- Description -->
+                                            <p>Nitro Drive is a project focused on designing an advanced performance tracking application. The main objective was to create a fast, responsive, and sleek interface that enhances user engagement through dynamic dashboards and real-time analytics.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Item 2 -->
+            <div class="accordion-item bg-dark text-white">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#serviceTwo">
+                        <i class="accordion-icons bi bi-terminal me-3"></i> Php Tall - School Projects
+                    </button>
+                </h2>
+                <div id="serviceTwo" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                    <div class="accordion-text accordion-body text-secondary">
+
+                        <div class="row g-6">
+                            <!-- Project 3 -->
+                            <!-- Project 4 -->
+                            <div class="col-md-6">
+                                <div class="project-card" data-bs-toggle="modal" data-bs-target="#greenEatsModal">
+                                    <div class="project-image" style="background-image: url('Resoruces/green_eats/green_eats_thumbnail.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2020</small>
+                                        <h5 class="text-white mt-2">PHP Tall Development - Green Eats</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Green Eats Modal -->
+                            <div class="modal fade" id="greenEatsModal" tabindex="-1" aria-labelledby="greenEatsModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header border-0">
+                                            <h5 class="modal-title" id="greenEatsModalLabel">Green Eats - PHP Tall Development</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Carousel -->
+                                            <div id="greenEatsCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active popup-image">
+                                                        <a href="Resoruces/green_eats/homepage.jpg" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/green_eats/homepage.jpg" class="d-block w-100" alt="Green Eats Homepage">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/green_eats/contact_us.jpg" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/green_eats/contact_us.jpg" class="d-block w-100" alt="Contact Us Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/green_eats/orders.jpg" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/green_eats/orders.jpg" class="d-block w-100" alt="Orders Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/green_eats/profile.jpg" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/green_eats/profile.jpg" class="d-block w-100" alt="Profile Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/green_eats/add_fruits.jpg" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/green_eats/add_fruits.jpg" class="d-block w-100" alt="Add Fruits Page">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#greenEatsCarousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#greenEatsCarousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </button>
+                                            </div>
+
+                                            <!-- Description -->
+                                            <p>This project was built for a small business to manage their online sales. It includes a full-featured shopping cart, payment integration, and customer management tools.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Project 4 -->
+                            <div class="col-md-6">
+                                <div class="project-card" data-bs-toggle="modal" data-bs-target="#trainingSessionWebModal">
+                                    <div class="project-image" style="background-image: url('Resoruces/training_session_web/training_session_web_thumbnail.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2021</small>
+                                        <h5 class="text-white mt-2">PHP Tall Development - Training Session</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Training Session Web Modal -->
+                            <div class="modal fade" id="trainingSessionWebModal" tabindex="-1" aria-labelledby="trainingSessionWebModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header border-0">
+                                            <h5 class="modal-title" id="trainingSessionWebModalLabel">Training Session Web - PHP Tall Development</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Carousel -->
+                                            <div id="trainingSessionWebCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active popup-image">
+                                                        <a href="Resoruces/training_session_web/landing_page.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session_web/landing_page.png" class="d-block w-100" alt="Sign In Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session_web/sign_in.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session_web/sign_in.png" class="d-block w-100" alt="Landing Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session_web/Dashboard.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session_web/Dashboard.png" class="d-block w-100" alt="Dashboard">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session_web/client_request.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session_web/client_request.png" class="d-block w-100" alt="Client Request">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session_web/manage_users.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session_web/manage_users.png" class="d-block w-100" alt="Manage Users">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session_web/view_groups.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session_web/view_groups.png" class="d-block w-100" alt="View Groups">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#trainingSessionWebCarousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#trainingSessionWebCarousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </button>
+                                            </div>
+
+                                            <!-- Description -->
+                                            <p>This PHP TALL Stack development project was designed for training session management, including user authentication, group management, client requests, and real-time dashboard features for a seamless educational platform experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Item 2 -->
+            <div class="accordion-item bg-dark text-white">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#serviceThree">
+                        <i class="accordion-icons bi bi-braces me-3"></i> AI, Data & Development - School Projects
+                    </button>
+                </h2>
+                <div id="serviceThree" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                    <div class="accordion-text accordion-body text-secondary">
+
+                        <div class="row g-4">
+                            <!-- Project 5 -->
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('Resoruces/AI, Data & Development/dataScraping_dataAnalysis.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2020</small>
+                                        <h5 class="text-white mt-2">An e-commerce platform for a small business</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 6 -->
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('images/project2.jpg');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2021</small>
+                                        <h5 class="text-white mt-2">A website for a non-profit organization that raises awareness and funds</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 7 -->
+                            <div class="col-md-4">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('images/project3.jpg');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2023</small>
+                                        <h5 class="text-white mt-2">A mobile app for a retail store</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Item 4 -->
+            <div class="accordion-item bg-dark text-white">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#serviceFour">
+                        <i class=" accordion-icons bi bi-easel me-3"></i> Figma Designs - School Projects
+                    </button>
+                </h2>
+                <div id="serviceFour" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                    <div class="accordion-text accordion-body text-secondary">
+
+                        <div class="row g-6">
+                            <!-- Project 8 -->
+                            <div class="col-md-6">
+                                <div class="project-card" data-bs-toggle="modal" data-bs-target="#thomasmoreModal">
+                                    <div class="project-image" style="background-image: url('Resoruces/thomasmore_revamp/thomasmore_thumbnail.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2024</small>
+                                        <h5 class="text-white mt-2">Thomas More Revamp - Figma Design</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Thomas More Modal -->
+                            <div class="modal fade" id="thomasmoreModal" tabindex="-1" aria-labelledby="thomasmoreModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header border-0">
+                                            <h5 class="modal-title" id="thomasmoreModalLabel">Thomas More Revamp - Figma Design</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Carousel -->
+                                            <div id="thomasmoreCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/login.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/login.png" class="d-block w-100" alt="Login Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/dashboard.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/dashboard.png" class="d-block w-100" alt="Dashboard">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/sign_up.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/sign_up.png" class="d-block w-100" alt="Sign Up Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/view_students.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/view_students.png" class="d-block w-100" alt="View Students">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/delete_students.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/delete_students.png" class="d-block w-100" alt="Delete Students">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/manage_nomination.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/manage_nomination.png" class="d-block w-100" alt="Manage Nomination">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/schedule.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/schedule.png" class="d-block w-100" alt="Schedule Page">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/thomasmore_revamp/webinar_email.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/thomasmore_revamp/webinar_email.png" class="d-block w-100" alt="Webinar Email">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#thomasmoreCarousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#thomasmoreCarousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </button>
+                                            </div>
+                                            <!-- Text Content -->
+                                            <p>This project was a complete redesign of the Thomas More educational website. The goal was to create a modern, user-friendly interface that improves navigation and highlights key information for prospective and current students.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 9 -->
+                            <!-- Project 5 -->
+                            <div class="col-md-6">
+                                <div class="project-card" data-bs-toggle="modal" data-bs-target="#trainingSessionModal">
+                                    <div class="project-image" style="background-image: url('Resoruces/training_session/training_session_thumbnail.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2025</small>
+                                        <h5 class="text-white mt-2">Figma Design Revamp - Training Session</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Training Session Modal -->
+                            <div class="modal fade" id="trainingSessionModal" tabindex="-1" aria-labelledby="trainingSessionModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header border-0">
+                                            <h5 class="modal-title" id="trainingSessionModalLabel">Training Session - Figma Design Revamp</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Carousel -->
+                                            <div id="trainingSessionCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <!-- Sign In appears first now -->
+                                                    <div class="carousel-item active popup-image">
+                                                        <a href="Resoruces/training_session/Login - All Users.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session/Login - All Users.png" class="d-block w-100" alt="Login - All Users">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session/Dashboard.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session/Dashboard.png" class="d-block w-100" alt="Dashboard">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session/Feedback.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session/Feedback.png" class="d-block w-100" alt="Feedback">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session/Templates.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session/Templates.png" class="d-block w-100" alt="Templates">
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item popup-image">
+                                                        <a href="Resoruces/training_session/View Students.png" onclick="openInNewTab(event, this.href)">
+                                                            <img src="Resoruces/training_session/View Students.png" class="d-block w-100" alt="View Students">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#trainingSessionCarousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon"></span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#trainingSessionCarousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon"></span>
+                                                </button>
+                                            </div>
+
+                                            <!-- Description -->
+                                            <p>This Figma design revamp project focused on modernizing the training session platform with a clean, intuitive layout. The goal was to improve user navigation, highlight core actions like viewing students and feedback, and ensure responsiveness across devices.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!-- Item 5 -->
+            <div class="accordion-item bg-dark text-white">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#serviceFive">
+                        <i class="accordion-icons bi bi-layout-text-window me-3"></i> UI UX Designs - Professional Projects
+                    </button>
+                </h2>
+                <div id="serviceFive" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                    <div class="accordion-text accordion-body text-secondary">
+
+                        <div class="row g-4">
+                            <!-- Project 10 -->
+                            <div class="col-md-4">
+                                <a href="https://dribbble.com/shots/25901691-Modern-File-Manager-Dashboard-UI-Design?utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Modern%20File%20Manager%20Dashboard%20UI%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Modern%20File%20Manager%20Dashboard%20UI%20Design&utm_medium=Social_Share">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('Resoruces/figma_professional_projects/FileMan.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2024</small>
+                                        <h5 class="text-white mt-2">Modern File Manager Dashboard UI Design</h5>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+                            <!-- Project 11 -->
+                            <div class="col-md-4">
+                                <a href="https://dribbble.com/shots/25901698-Dark-Themed-Fitness-Mobile-App-UI-Design?utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Dark-Themed%20Fitness%20Mobile%20App%20UI%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Dark-Themed%20Fitness%20Mobile%20App%20UI%20Design&utm_medium=Social_Share">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('Resoruces/figma_professional_projects/Fitness App.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2024</small>
+                                        <h5 class="text-white mt-2">Dark-Themed Fitness Mobile App UI Design</h5>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+
+                            <!-- Project 12 -->
+                            <div class="col-md-4">
+                                <a href="https://dribbble.com/shots/25901645-E-Learning-Platform-UI-UX-Design-for-EduNation?utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=E-Learning%20Platform%20UI%2FUX%20Design%20for%20EduNation&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=E-Learning%20Platform%20UI%2FUX%20Design%20for%20EduNation&utm_medium=Social_Share">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('Resoruces/figma_professional_projects/EduNation.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2023</small>
+                                        <h5 class="text-white mt-2">E-Learning Platform UI/UX Design for EduNation</h5>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+                            <!-- Project 13 -->
+                            <div class="col-md-4">
+                                <a href="https://dribbble.com/shots/25901713-Futuristic-Web-Design-for-Tech-Empowerment-Platform?utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Futuristic%20Web%20Design%20for%20Tech%20Empowerment%20Platform&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Futuristic%20Web%20Design%20for%20Tech%20Empowerment%20Platform&utm_medium=Social_Share">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('Resoruces/figma_professional_projects/Nexora.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2023</small>
+                                        <h5 class="text-white mt-2">Futuristic Web Design for Tech Empowerment Platform</h5>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+                            <!-- Project 14 -->
+                            <div class="col-md-4">
+                                <a href="https://dribbble.com/shots/25901675-Modern-Social-Media-Mobile-App-UI-Design?utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Modern%20Social%20Media%20Mobile%20App%20UI%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=Modern%20Social%20Media%20Mobile%20App%20UI%20Design&utm_medium=Social_Share">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('Resoruces/figma_professional_projects/Social App.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2024</small>
+                                        <h5 class="text-white mt-2">Modern Social Media Mobile App UI Design</h5>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+                            <!-- Project 15 -->
+                            <div class="col-md-4">
+                                <a href="https://dribbble.com/shots/25901658-NFT-Dashboard-UI-Design-for-MintBase-Platform?utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=NFT%20Dashboard%20UI%20Design%20for%20MintBase%20Platform&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iqbalx&utm_content=NFT%20Dashboard%20UI%20Design%20for%20MintBase%20Platform&utm_medium=Social_Share">
+                                <div class="project-card">
+                                    <div class="project-image" style="background-image: url('Resoruces/figma_professional_projects/MintBase.png');"></div>
+                                    <div class="project-details p-3">
+                                        <small class="text-uppercase text-white-50">Project 2024</small>
+                                        <h5 class="text-white mt-2">NFT Dashboard UI Design for MintBase Platform</h5>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="motto-section text-center position-relative">
+    <img src="Resoruces/flare%20image%202.png" class="position-absolute flare-image3" alt="Decorative flare" />
+    <div class="motto-content">
+        <p class="motto-subtitle">MY MOTTO</p>
+        <h1 class="motto-heading">BRAINSTORM.<br>BUILD.<br>IMPACT.</h1>
+        <a href="#" class="btn hire-btn mt-4">View CV</a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer class="footer-section">
+        <div class="footer-content d-flex justify-content-between align-items-center flex-wrap">
+            <p class="footer-text mb-0">© 2025 HI PORTFOLIO. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-dribbble"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+</footer>
+
+
+
+
+
+
+
+
+<!-- Bootstrap Bundle JS -->
+<script src="js.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -36,3 +36,27 @@ AOS.init({
     duration: 1000, // Animation duration (ms)
     once: true,     // Only animate once when scrolled
 });
+
+
+
+
+
+
+
+
+
+
+
+    function downloadPDF() {
+        const element = document.getElementById("cv-content");
+
+    const opt = {
+    margin:       0.5,
+    filename:     'Hamid_Iqbal_CV.pdf',
+    image:        { type: 'jpeg', quality: 0.98 },
+    html2canvas:  { scale: 2 },
+    jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+};
+
+    html2pdf().set(opt).from(element).save();
+}

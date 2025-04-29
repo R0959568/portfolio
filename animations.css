@@ -1,0 +1,195 @@
+
+/*-----------------------------------Animations*/
+
+/*---------Navigations Bar*/
+
+.navbar {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 1.5s ease, transform 1.5s ease; /* same duration for both */
+}
+
+.navbar.loaded {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s; /* optional delay before it starts */
+}
+
+
+
+
+
+/*---------Main + Hero Section*/
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Hero Line Animation */
+.hero-content h1,
+.hero-content p {
+    opacity: 0;
+    animation: fadeUp 1.0s ease forwards;
+}
+
+/* Stagger delays */
+.hero-content p {
+    animation-delay: 0.2s;
+}
+.hero-content h1:nth-of-type(1) {
+    animation-delay: 0.4s;
+}
+.hero-content h1:nth-of-type(2) {
+    animation-delay: 0.6s;
+}
+.hero-content h1:nth-of-type(3) {
+    animation-delay: 0.8s;
+}
+
+/* Social icons animation */
+.social-icons {
+    opacity: 0;
+    animation: fadeInRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+
+.overlay {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 1;
+    pointer-events: none;
+    animation: fadeOutOverlay 8.0s ease forwards;
+    animation-delay: 0.5s; /* optional delay before it fades out */
+}
+
+@keyframes fadeOutOverlay {
+    to {
+        opacity: 0;
+    }
+}
+
+
+
+/*---------About Me*/
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.about-section .profile-pic {
+    opacity: 0;
+    animation: zoomIn 1s ease forwards;
+    animation-delay: 0.2s;
+}
+
+.about-section h2 {
+    opacity: 0;
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+.about-section .section-subtitle {
+    opacity: 0;
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 0.7s;
+}
+
+.about-section .about-text {
+    opacity: 0;
+    animation: fadeUp 1.2s ease forwards;
+    animation-delay: 1s;
+}
+
+.about-section .tags {
+    opacity: 0;
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 1.3s;
+}
+
+.about-section .download-btn {
+    opacity: 0;
+    animation: fadeUp 1s ease forwards;
+    animation-delay: 1.6s;
+}
+
+.about-section * {
+    will-change: transform, opacity;
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

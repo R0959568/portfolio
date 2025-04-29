@@ -1,0 +1,214 @@
+
+
+:root {
+    --primary-color: #FA531E;
+    --bg-dark: #000000;
+    --fg-dark: #0e0e0e;
+    --text-light: #bbb;
+    --border-color: rgba(255, 255, 255, 0.08);
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    background-color: var(--bg-dark);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----------------------------------Navbar*/
+
+
+.navbar{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-item{
+    padding-left: 16px;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--primary-color);
+    position: relative;
+}
+
+.navbar-nav .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 70%; /* or any % you want */
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+
+
+
+
+
+/*-----------------------------------Hero*/
+
+
+.cv-hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: var(--bg-dark);
+}
+
+.cv-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.cv-hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+}
+
+.download-btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #e24712;
+}
+
+
+/*-----------------------------------Hero*/
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    /*border: 2px solid var(--primary-color);*/
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cv-section {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.cv-section h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 10px;
+}
+
+.cv-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cv-list li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: var(--text-light);
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.tag {
+    background: var(--fg-dark);
+    color: white;
+    border: 1px solid var(--primary-color);
+    padding: 12px 24px;
+    border-radius: 32px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+/*-----------------------------------Footer*/
+
+
+.footer-section {
+    background-color: var(--bg-dark);
+    padding: 10px 0;
+    color: var(--text-light);
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* so on small screens it stacks nicely */
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-bottom: 0;
+}
+
+.footer-social a {
+    color: #B7AB98;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: var(--primary-color);
+}
+
+
+
+
+
+/*-----------------------------------max-width: 768px*/
+
+@media (max-width: 768px) {
+
+    .cv-section {
+        margin-right: 40px;
+        margin-left: 40px;
+        padding-bottom: 100px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+}
+
+
+/*-----------------------------------max-width: 480*/
+
+@media (max-width: 480px) {
+
+    .cv-section {
+        margin-right: 16px;
+        margin-left: 16px;
+        padding-bottom: 100px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+}

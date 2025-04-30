@@ -19,6 +19,10 @@ body {
 }
 
 
+
+
+
+
 /*-----------------------------------Styling Elements*/
 
 
@@ -56,6 +60,35 @@ body {
 
 
 
+
+
+/*-----------------------------------Navbar*/
+
+.navbar{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-item{
+    padding-left: 16px;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--primary-color);
+    position: relative;
+}
+
+.navbar-nav .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 70%; /* or any % you want */
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
 
 
 
@@ -121,41 +154,6 @@ body {
     margin: 20px 0;
     font-size: 1.2rem;
     text-decoration: none;
-}
-
-
-
-
-
-
-
-
-/*-----------------------------------Navbar*/
-
-.navbar{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.nav-item{
-    padding-left: 16px;
-}
-
-.navbar-nav .nav-link.active {
-    color: var(--primary-color);
-    position: relative;
-}
-
-.navbar-nav .nav-link.active::after {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 2px;
-    width: 70%; /* or any % you want */
-    background-color: var(--primary-color);
-    border-radius: 2px;
 }
 
 
@@ -538,12 +536,6 @@ body {
 
 
 
-
-
-
-
-
-
 /*-----------------------------------Footer*/
 
 
@@ -610,15 +602,166 @@ body {
 /*-----------------------------------max-width: 480*/
 
 @media (max-width: 480px) {
-    .hero-content h1 {
-        font-size: 2rem;
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /*-----------------------------------Navbar*/
+
+    .navbar{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .nav-item{
+        padding-left: 1px;
+    }
+
+
+
+
+    /*-----------------------------------Main + Hero Section*/
+
+    .hero-content {
+        margin-left: 16px;
     }
 
     .hero-content p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
-    .social-icons a {
-        margin: 10px 0;
+    .social-icons {
+        right: 16px;
+        top: 48%;
+        margin-right: 16px;
     }
+
+
+
+
+    /*-----------------------------------About Me*/
+
+    .section-subtitle {
+        font-size: 0.8rem;
+        margin-bottom: 0.0rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    .tag-item {
+        font-size: 0.8rem;
+    }
+
+    .about-me-text{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+
+
+
+    /*-----------------------------------My Achievement*/
+
+
+    .achievements-section {
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+
+    .accordion-button {
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .accordion-body {
+        padding: 1rem 2rem;
+    }
+
+    .accordion-text{
+        padding-left:16px;
+        padding-right:16px;
+        padding-bottom: 32px;
+
+    }
+
+
+
+
+    /*-----------------------------------Accordion Sections*/
+
+
+    .project-card {
+        margin-bottom: 32px;
+    }
+
+    .project-details {
+        background-color: #111;
+        flex-grow: 1;
+    }
+
+
+
+
+    /*-----------------------------------Accordion Pop up*/
+
+    /* Modal styling */
+    .modal-content {
+        background-color: var(--fg-dark);
+        border: none;
+        border-radius: 8px;
+        color: var(--text-light);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .modal-header {
+        border-bottom: 1px solid var(--border-color);
+        color: white;
+    }
+
+    .popup-image {
+        height: 250px; /* Set the fixed height you want */
+        width: 100%;   /* Optional, full width */
+        overflow: hidden;
+        position: relative;
+    }
+
+
+
+
+    /*-----------------------------------Motto*/
+
+    .motto-heading {
+        font-size: 3rem;
+    }
+
+
+
+
+    /*-----------------------------------Footer*/
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding-top: 10px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .footer-social {
+        gap: 20px;
+    }
+
+
 }

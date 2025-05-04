@@ -34,18 +34,6 @@ body {
     position: relative;
 }
 
-.navbar-nav .nav-link.active::after {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 2px;
-    width: 70%; /* or any % you want */
-    background-color: var(--primary-color);
-    border-radius: 2px;
-}
-
 
 
 
@@ -191,14 +179,50 @@ body {
 @media (max-width: 768px) {
 
     .cv-section {
-        margin-right: 40px;
-        margin-left: 40px;
+        margin-right: 32px;
+        margin-left: 32px;
         padding-bottom: 100px;
         border-bottom: 1px solid rgba(255,255,255,0.05);
     }
 
 
 
+
+
+    /*-----------------------------------Navbar*/
+
+    .navbar{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .nav-item{
+        padding-left: 1px;
+        margin-bottom: 4px;
+    }
+
+
+    /*-----------------------------------Footer*/
+
+
+    .footer-section{
+        padding-bottom: 32px;
+    }
+
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding-top: 10px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .footer-social {
+        gap: 20px;
+    }
 
 
 
@@ -211,11 +235,126 @@ body {
 
 @media (max-width: 480px) {
 
+
+
+
+    /*-----------------------------------Hero*/
+
+
+    .cv-hero h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .download-btn:hover {
+        background-color: #e24712;
+    }
+
+
+    /*-----------------------------------Hero*/
+
+    .profile-pic img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        /*border: 2px solid var(--primary-color);*/
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .cv-section {
+        margin-right: 100px;
+        margin-left: 100px;
+        padding-bottom: 100px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .cv-section h2 {
+        font-size: 2.5rem;
+        color: white;
+        margin-bottom: 2rem;
+        border-left: 4px solid var(--primary-color);
+        padding-left: 10px;
+    }
+
+    .cv-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .cv-list li {
+        margin-bottom: 1rem;
+        line-height: 1.6;
+        color: var(--text-light);
+    }
+
+    .tag-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+
+    .tag {
+        background: var(--fg-dark);
+        color: white;
+        border: 1px solid var(--primary-color);
+        padding: 12px 24px;
+        border-radius: 32px;
+        font-size: 1rem;
+    }
+
+
+
+
+
+    /*-----------------------------------Navbar*/
+
+    .navbar{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .nav-item{
+        padding-left: 1px;
+        margin-bottom: 4px;
+    }
+
+
+
+
+    /*-----------------------------------CV Section*/
+
+
     .cv-section {
         margin-right: 16px;
         margin-left: 16px;
         padding-bottom: 100px;
         border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+
+
+    /*-----------------------------------Footer*/
+
+
+    .footer-section{
+        padding-bottom: 24px;
+    }
+
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding-top: 10px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .footer-social {
+        gap: 20px;
     }
 
 

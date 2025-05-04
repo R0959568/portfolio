@@ -32,12 +32,6 @@ function openInNewTab(event, url) {
 
 
 
-AOS.init({
-    duration: 1000, // Animation duration (ms)
-    once: true,     // Only animate once when scrolled
-});
-
-
 
 
 
@@ -60,3 +54,6 @@ AOS.init({
 
     html2pdf().set(opt).from(element).save();
 }
+
+
+
